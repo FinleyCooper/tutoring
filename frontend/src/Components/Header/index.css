@@ -1,24 +1,21 @@
 .header {
     background-color: #515466;
     color: white;
-    padding: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: min(5vw, 3rem);
+    padding-left: min(5vw, 3rem);
     padding-top: 0px;
     padding-bottom: 0px;
     height: 70px;
 }
 .title {
-    padding-right: 20vw;
+    padding-right: 10vw;
+    font-size: min(3.5vw, 2rem);
 }
 
-.contact {
-    padding-right: 3vw;
-}
 
 h1,h2 {
     padding: 0;
@@ -28,5 +25,6 @@ h1,h2 {
 header > a {
     text-decoration: none;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: min(3vw, 1.5rem);
+    padding-left: 1rem;
 }

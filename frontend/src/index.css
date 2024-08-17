@@ -10,8 +10,15 @@ body {
 
 .page {
     width: 100%;
-    height: 100vh;
+    max-height: none;
+    min-height: 100vh;
+    height: auto;
 }
+
+.page:not(.first-page) {
+    margin-top: 25px;
+}
+
 .first-page {
     height: calc(100vh - 70px) !important;
 }
@@ -37,12 +44,12 @@ body {
 
 .subjects-content {
     width: 80%;
-    height: 90%;
+    min-height: 90%;
 }
 
 .about-me-content, .contact-me-content, .pricing-content {
     width: 80%;
-    height: 80%;
+    min-height: 80%;
 }
 
 
@@ -54,16 +61,16 @@ body {
 }
 
 .image {
-    margin-left: 5rem;
+    margin-left: 2vw;
     display: grid;
     place-items: center;
-    width: 500px;
-    height: 500px;
+    width: min(50vw, 500px);
+    height: min(50vw, 500px);
 }
 
 .text {
     width: 30%;
-    padding: 5rem;
+    padding: 3vw;
 }
 
 .subject-list {
@@ -71,15 +78,16 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     width: 100%;
-    height: 240px;
     gap: 25px;
+    flex-wrap: wrap;
 }
 
 .subject {
     border: 3px solid #566572;
     border-radius: 25px;
-    height: 100%;
+    height: 240px;
     width: 200px;
+    min-width: 200px;
     padding: 10px 20px 20px 20px;
 }
 
