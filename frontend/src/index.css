@@ -110,3 +110,9 @@ body {
 .link {
     color: #777777;
 }
+
+@media (max-width: 646px) {
+    .subject-list {
+        justify-content: center;
+    }
+}
