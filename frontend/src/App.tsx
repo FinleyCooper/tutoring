@@ -48,17 +48,17 @@ class App extends React.Component<{},{}> {
               <div className='subject-list'>
                 <div className='subject'>
                   <h2>Mathematics</h2>
-                  <p>
+                  <p>Looking at both the foundation and higher tier, I can help with any topic or go through challenging past paper questions.
                   </p>
                 </div>
                 <div className='subject'>
                   <h2>Computer Science</h2>
-                  <p>
+                  <p>I can help with both the theory and programming aspects of the course, programming in Python or JavaScript.
                   </p>
                 </div>
                 <div className='subject'>
                   <h2>Physics</h2>
-                  <p>
+                  <p>I can provide tutoring for both the foundation and higher tier of GCSE Combined Science or Triple Science.
                   </p>
                 </div>
               </div>
@@ -67,31 +67,31 @@ class App extends React.Component<{},{}> {
               <div className='subject-list'>
                 <div className='subject'>
                   <h2>Further Mathematics</h2>
-                  <p>
+                  <p>I can offer tutoring for the Core Pure modules, Further Statistics 1, Further Mechanics 1, as well as the Further Pure 1 and 2 modules (may vary depending on exam board).
                   </p>
                 </div>
                 <div className='subject'>
                   <h2>Mathematics</h2>
-                  <p>
+                  <p>I offer tutoring for the entire of the A-level Mathematics course, from integration to kinematics.
                   </p>
                 </div>
                 <div className='subject'>
                   <h2>Computer Science</h2>
-                  <p>
+                  <p>Provide tutoring for both papers of the A-level Computer Science course, including programming in Python or JavaScript. (Please note I cannot help with the NEA directly.)
                   </p>
                 </div>
                 <div className='subject'>
                   <h2>Physics</h2>
-                  <p>
+                  <p>Covering everything from the A-level Physics course, from quantum mechanics to astrophysics.
                   </p>
                 </div>
                 <div className='subject'>
                   <h2>STEP, TMUA, MAT, AEA</h2>
-                  <p>
+                  <p>I can provide tutoring for mathematics entrance exams, looking at past papers and sharing some techniques beyond A-level.
                   </p>
                 </div>
               </div>
-              <p className="extra">Other subjects are available on request, feel free to <a className="link" href="#contact">contact me</a> for any queries</p>
+              <p className="extra">Other subjects are available on request, feel free to <a className="link" href="#contact">contact me</a> for any queries.</p>
             </div>
           </div>
           <div id="pricing" className="pricing page">
