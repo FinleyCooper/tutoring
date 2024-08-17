@@ -25,18 +25,18 @@ class App extends React.Component<{},{}> {
               <div className="about-me-content">
                 <h1>About me</h1>
                 <p>
-                  A lot of the time tutoring feels intimidating and stressful on the student. My tutoring prevents this by keeping
-                  my students engaged and give them an understanding of topics which allows the student to thrive on their own and
-                  not be reliant on teachers or tutor to tell them what exactly to do. The exams which I'm preparing my tutees for
+                  A lot of the time tutoring feels intimidating and stressful on the student. My tutoring prevents this by keeping 
+                  students engaged and giving them an understanding of topics, allowing the student to thrive on their own and
+                  not be reliant on teachers or a tutor to have to tell them what exactly to do. The exams which I'm preparing my tutees for
                   are still fresh in my mind, so I can bring a more relatable approach to the tutoring, whilst still keeping a high
-                  level academic standard.
+                  level of academic standard.
                 </p>
                 <h2>Qualifications</h2>
                 <p>- Achieved eight grade 9s and two grade 8s at GCSE. (Equivalent to all A*.)</p>
                 <p>- Achieved grades A*A*A*A*A* at A-level in Mathematics, Further Mathematics, Physics, Computer Science, and EPQ.</p>
                 <p>- Achieved S1 in STEP (Cambridge Mathematics entrance exam), amongst the top 10% of Cambridge mathematics offer holders.</p>
                 <p>- Top 20 national finalist in the Elite Oxford University Computing Challenge.</p>
-                <p>- Top 100 in the British Physics Olympiad.</p>
+                <p>- Top 100 nationally in the British Physics Olympiad.</p>
                 <h2>Experience</h2>
                 <p>- Volunteered weekly to tutor stuggling GCSE Maths students at Gordano School.</p>
               </div>
