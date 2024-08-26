@@ -77,7 +77,7 @@ class App extends React.Component<{},{}> {
                 </div>
                 <div className='subject'>
                   <h2>Computer Science</h2>
-                  <p>Provide tutoring for both papers of the A-level Computer Science course, including programming in Python or JavaScript. (Please note I cannot help with the NEA directly.)
+                  <p>Providing tutoring for both papers of the A-level Computer Science course, including programming in Python or JavaScript. (Please note I cannot help with the NEA directly.)
                   </p>
                 </div>
                 <div className='subject'>
